@@ -35,7 +35,6 @@ void count_of_all()
             std::cout<<"shipping price: "<<x.obl_w()*ship<<"\n\n";
         for(auto y:x.get_vec())
         {
-            //std::cout<<"nazwa: "<<y.get_name()<<std::endl;
             y.display_off();
         }
 
